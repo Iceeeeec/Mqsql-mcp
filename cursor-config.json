@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "shuwu-mysql": {
+      "command": "node",
+      "args": [
+        "H:\\shuwu-virtual-human\\mcp-mysql-server\\index.js"
+      ],
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}
+

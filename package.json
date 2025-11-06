@@ -1,0 +1,51 @@
+{
+  "name": "@shuwu/mcp-mysql-server",
+  "version": "2.0.0",
+  "description": "Model Context Protocol (MCP) server for MySQL - enables AI assistants like Cursor and Claude to query MySQL databases",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "mcp-mysql": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node test-connection.js",
+    "prepublishOnly": "echo 'Ready to publish!'"
+  },
+  "keywords": [
+    "mcp",
+    "mysql",
+    "model-context-protocol",
+    "ai",
+    "cursor",
+    "claude",
+    "database",
+    "sql",
+    "ai-assistant",
+    "llm"
+  ],
+  "author": "shuwu Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/mcp-mysql-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/mcp-mysql-server/issues"
+  },
+  "homepage": "https://github.com/your-username/mcp-mysql-server#readme",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "mysql2": "^3.11.5",
+    "dotenv": "^16.4.7"
+  }
+}
